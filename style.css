@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #009933;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 20px;
+}
+
+#Samsung-Galaxy-S23-Ultra-specs, #iPhone-14-Pro-Max-specs {
+  display: none;
+}

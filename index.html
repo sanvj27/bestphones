@@ -1,66 +1,72 @@
-<table style="background-color: #009933; border-collapse: collapse;">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phones Released in 2023</title>
+<link href="style.css" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+<h1>Phones Released in 2023</h1>
+<table>
   <thead>
     <tr>
-      <th>Spec</th>
-      <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Samsung_Galaxy_S23_Ultra_5G_-_render_-_front.jpg/1200px-Samsung_Galaxy_S23_Ultra_5G_-_render_-_front.jpg" width="150" height="150"></th>
-      <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/IPhone_14_Pro_Max_-_render_-_back.jpg/1200px-IPhone_14_Pro_Max_-_render_-_back.jpg" width="150" height="150"></th>
-      <th>Winner</th>
+      <th>Brand</th>
+      <th>Model</th>
+      <th>Release Date</th>
+      <th>Specs</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Display</td>
-      <td>6.8-inch Dynamic AMOLED 2X display (3088 x 1440 pixels)</td>
-      <td>6.7-inch Super Retina XDR display (2778 x 1284 pixels)</td>
       <td>Samsung</td>
+      <td>Galaxy S23 Ultra</td>
+      <td>February 25, 2023</td>
+      <td>6.8-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 2 processor, 12GB RAM, 1TB storage, 108MP rear camera, 40MP front camera</td>
     </tr>
     <tr>
-      <td>Processor</td>
-      <td>Snapdragon 8 Gen 2</td>
-      <td>A16 Bionic</td>
-      <td>Apple</td>
+      <td>iPhone</td>
+      <td>iPhone 14 Pro Max</td>
+      <td>September 16, 2023</td>
+      <td>6.7-inch Super Retina XDR display, A16 Bionic processor, 6GB RAM, 1TB storage, 48MP rear camera, 12MP front camera</td>
     </tr>
     <tr>
-      <td>RAM</td>
-      <td>12GB</td>
-      <td>6GB</td>
-      <td>Samsung</td>
+      <td>Nothing</td>
+      <td>Phone (1)</td>
+      <td>July 12, 2023</td>
+      <td>6.55-inch OLED display, Snapdragon 778G+ processor, 8GB RAM, 128GB storage, 50MP rear camera, 16MP front camera</td>
     </tr>
-    <tr>
-      <td>Storage</td>
-      <td>128GB, 256GB, 512GB, 1TB, 1.5TB</td>
-      <td>128GB, 256GB, 512GB, 1TB</td>
-      <td>Samsung</td>
-    </tr>
-    <tr>
-      <td>Rear cameras</td>
-      <td>200MP wide, 12MP ultrawide, 10MP telephoto, 10MP periscope telephoto</td>
-      <td>48MP wide, 12MP ultrawide, 12MP telephoto</td>
-      <td>Samsung</td>
-    </tr>
-    <tr>
-      <td>Front camera</td>
-      <td>40MP</td>
-      <td>12MP</td>
-      <td>Samsung</td>
-    </tr>
-    <tr>
-      <td>Battery</td>
-      <td>5000mAh</td>
-      <td>3095mAh</td>
-      <td>Samsung</td>
-    </tr>
-    <tr>
-      <td>Operating system</td>
-      <td>Android 13</td>
-      <td>iOS 16</td>
-      <td>Apple</td>
-    </tr>
-    <tr>
-      <td>Price</td>
-      <td>Starts at $1149</td>
-      <td>Starts at $999</td>
-      <td>Samsung</td>
-    </tr>
+    ...
   </tbody>
 </table>
+<h2>Click on a phone to see its specs</h2>
+<div>
+  <button onclick="showSpecs('Samsung', 'Galaxy S23 Ultra')">Samsung Galaxy S23 Ultra</button>
+  <button onclick="showSpecs('iPhone', 'iPhone 14 Pro Max')">iPhone 14 Pro Max</button>
+  <button onclick="showSpecs('Nothing', 'Phone (1)')">Nothing Phone (1)</button>
+  ...
+</div>
+<div id="Samsung-Galaxy-S23-Ultra-specs" style="display: none;">
+  <h3>Samsung Galaxy S23 Ultra Specs</h3>
+  <ul>
+    <li>6.8-inch Dynamic AMOLED 2X display</li>
+    <li>Snapdragon 8 Gen 2 processor</li>
+    <li>12GB RAM</li>
+    <li>1TB storage</li>
+    <li>108MP rear camera</li>
+    <li>40MP front camera</li>
+  </ul>
+</div>
+<div id="iPhone-14-Pro-Max-specs" style="display: none;">
+  <h3>iPhone 14 Pro Max Specs</h3>
+  <ul>
+    <li>6.7-inch Super Retina XDR display</li>
+    <li>A16 Bionic processor</li>
+    <li>6GB RAM</li>
+    <li>1TB storage</li>
+    <li>48MP rear camera</li>
+    <li>12MP front camera</li>
+  </ul>
+</div>
+...
+</body>
+</html>
